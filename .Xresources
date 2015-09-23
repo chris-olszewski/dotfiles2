@@ -1,0 +1,31 @@
+! Terminal colors
+*color0: #282214
+*color1: #4c412f
+*color2: #887d6b
+*color3: #6d6759
+*color4: #896543
+*color5: #969a7f
+*color6: #c6c3b0
+*color7: #8e0a17
+*color8: #ae5048
+*color9: #ab3529
+*color10: #3f1104
+*color11: #c1b488
+*color12: #d68359
+*color13: #eda386
+*color14: #82421c
+*color15: #cf5f4b
+
+*.foreground: #ffffff
+*.background: #000000
+
+! Urxvrt
+URxvt*.depth: 32
+URxvt.background: [85]#000000
+URxvt.scrollBar: false
+URxvt.perl-ext-common: default,clipboard,selection-to-clipboard
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.clipboard.copycmd: xsel -ib
+URxvt.clipboard.pastecmd: xsel -ob
