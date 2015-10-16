@@ -23,7 +23,7 @@
 URxvt*.depth: 32
 URxvt.background: [85]#000000
 URxvt.scrollBar: false
-URxvt.perl-ext-common: default,clipboard,selection-to-clipboard
+URxvt.perl-ext-common: default
 URxvt.iso14755: False
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste

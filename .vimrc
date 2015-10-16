@@ -25,6 +25,9 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim' " do not remove
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-rails'
+Plugin 'pangloss/vim-javascript'
+Plugin 'vim-scripts/VimClojure'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
@@ -42,7 +45,10 @@ set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 set nowrap		" do not wrap lines
-set number
+set number		" turn on line numbers
+set noundofile		" turn off .un~ creation
+set backupdir=~/.backup,.,/tmp
+set directory=~/.backup
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
