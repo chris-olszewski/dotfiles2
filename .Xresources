@@ -1,20 +1,20 @@
 ! Terminal colors
-*color0: #282214
-*color1: #4c412f
-*color2: #887d6b
-*color3: #6d6759
-*color4: #896543
-*color5: #969a7f
-*color6: #c6c3b0
-*color7: #8e0a17
-*color8: #ae5048
-*color9: #ab3529
-*color10: #3f1104
-*color11: #c1b488
-*color12: #d68359
-*color13: #eda386
-*color14: #82421c
-*color15: #cf5f4b
+*color0: #9f7b49
+*color1: #eacb97
+*color2: #674c49
+*color3: #7f6b60
+*color4: #6e6278
+*color5: #a79ba9
+*color6: #5d5e96
+*color7: #464364
+*color8: #867c97
+*color9: #281e37
+*color10: #060602
+*color11: #908fb8
+*color12: #c4c2cf
+*color13: #141420
+*color14: #4f2f16
+*color15: #503641
 
 *.foreground: #ffffff
 *.background: #000000
