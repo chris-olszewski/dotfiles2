@@ -20,7 +20,7 @@ Wifi() {
 	echo "$SSID"
 }
 
-while true; do
+while xset q &>/dev/null; do
 	echo "%{Fwhite}%{l}%{A:reboot:}%{A3:poweroff:} O %{A}%{A} %{A:urxvt -name float -e 'sudo wifi-menu':}WiFi: $(Wifi) %{A}%{c}%{B#90000000}$(Clock)%{r}%{A:urxvt -name float -e 'alsamixer':}Sound: $(AlsaVolume) %{A} Battery: $(Battery)"
 	sleep 1;
 done

@@ -28,9 +28,14 @@ Plugin 'tpope/vim-rails'
 Plugin 'pangloss/vim-javascript'
 Plugin 'vim-scripts/VimClojure'
 Plugin 'fatih/vim-go'
+Plugin 'vim-airline/vim-airline'
 
 call vundle#end()
 filetype plugin indent on
+
+" always display statusbar
+set laststatus=2
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
@@ -118,3 +123,11 @@ if has('langmap') && exists('+langnoremap')
   " compatible).
   set langnoremap
 endif
+
+" Airline
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+
+let g:airline_left_sep = '»'
+let g:airline_right_sep = '«'
