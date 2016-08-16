@@ -20,3 +20,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 SC_CLIENT_ID=ae96d0d7048f64460757e7ddcbeeada5
+
+export OH="$HOME/code/work/openhomes"
+
+alias slsx="$HOME/code/opensource/serverless/bin/serverless"

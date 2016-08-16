@@ -1,7 +1,6 @@
-! █▓▒░ scorcerer colors
 *.foreground:   #c2c2b0
 *.background:   #222222
-*.cursorColor:  #7c2c2b0
+*.cursorColor:  #7c2c2b
 ! black
 *.color0:       #111111
 *.color8:       #181818
@@ -30,26 +29,6 @@
 *.colorIT:      #719611
 *.colorBD:      #d3d3d3
 *.colorUL:      #528b8b
-! Terminal colors
-!*color0: #9f7b49
-!*color1: #eacb97
-!*color2: #674c49
-!*color3: #7f6b60
-!*color4: #6e6278
-!*color5: #a79ba9
-!*color6: #5d5e96
-!*color7: #464364
-!*color8: #867c97
-!*color9: #281e37
-!*color10: #060602
-!*color11: #908fb8
-!*color12: #c4c2cf
-!*color13: #141420
-!*color14: #4f2f16
-!*color15: #503641
-
-!*.foreground: #222222
-!*.background: #ffffff
 
 ! Urxvrt
 URxvt*.depth: 32

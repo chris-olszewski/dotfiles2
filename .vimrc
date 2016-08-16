@@ -29,6 +29,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'vim-scripts/VimClojure'
 Plugin 'fatih/vim-go'
 Plugin 'vim-airline/vim-airline'
+Plugin 'lambdatoast/elm.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -131,3 +132,11 @@ endif
 
 let g:airline_left_sep = '»'
 let g:airline_right_sep = '«'
+
+" Use spaces instead of tabs
+set expandtab
+
+let g:javagetset_getterTemplate = "\n%modifiers% %type% %funcname%() {\nreturn %varname%;\n}\n"
+let g:javagetset_setterTemplate = "\n%modifiers% void %funcname%() {\nthis.%varname% = %varname%;\n}\n"
+
+
