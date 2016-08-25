@@ -23,13 +23,12 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim' " do not remove
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'tpope/vim-rails'
-Plugin 'pangloss/vim-javascript'
-Plugin 'vim-scripts/VimClojure'
-Plugin 'fatih/vim-go'
 Plugin 'vim-airline/vim-airline'
+" General Syntax
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'lambdatoast/elm.vim'
+" Javascript Plugins
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on

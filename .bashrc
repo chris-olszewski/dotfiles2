@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 alias steam-wine='WINEDEBUG=-all wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Steam/Steam.exe'
 PS1='[\u@\h \W]\$ '
 
+export VISUAL="vim"
 export GOPATH="$HOME/.go"
 export PATH="$PATH:$GOPATH/bin:$HOME/bin"
 export PATH="$PATH:/usr/local/heroku/bin"
@@ -24,3 +25,4 @@ SC_CLIENT_ID=ae96d0d7048f64460757e7ddcbeeada5
 export OH="$HOME/code/work/openhomes"
 
 alias slsx="$HOME/code/opensource/serverless/bin/serverless"
+

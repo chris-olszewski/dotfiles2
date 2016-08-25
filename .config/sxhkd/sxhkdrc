@@ -52,7 +52,7 @@ super + @button{1,2,3}
 # wm independent hotkeys
 #
 super + Return
-      urxvt
+      urxvtc
 super + space
       dmenu_run
 # make sxhkd reload its configuration files:
