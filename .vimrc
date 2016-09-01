@@ -29,8 +29,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'lambdatoast/elm.vim'
 " Javascript Plugins
 Plugin 'pangloss/vim-javascript'
-
 call vundle#end()
+
 filetype plugin indent on
 
 " always display statusbar

@@ -34,8 +34,8 @@
 URxvt*.depth: 32
 URxvt*.transparent: true
 URxvt.background: [50]#ffffff
-URxvt*.shading: 30
-URxvt*.blurRadius: 10x10
+URxvt*.shading: 60
+URxvt*.blurRadius: 6x6
 URxvt.scrollBar: false
 URxvt.perl-ext-common: default
 URxvt.iso14755: False
